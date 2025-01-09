@@ -39,9 +39,9 @@
     <!-- button 1 -->
 
     <button class="moves-button" onclick=" 
-    PlayGame('Rock')
+    PlayGame('rock')
 ">
-        <img class="img" src="Rock-emoji.png" alt="">
+        <img class="img" src="rock-emoji.png" alt="">
     </button>
 
     <!-- button 2 -->
@@ -86,8 +86,8 @@
 
             // rock option condition  
 
-            if (PlayerMove === 'Rock') {
-                if (computerMove === 'Rock') {
+            if (PlayerMove === 'rock') {
+                if (computerMove === 'rock') {
                     result = 'tie'
                 }
                 else if (computerMove === 'papper') {
@@ -102,7 +102,7 @@
             //  papper option condition
 
             if (PlayerMove === 'papper') {
-                if (computerMove === 'Rock') {
+                if (computerMove === 'rock') {
                     result = 'you win'
                 }
                 else if (computerMove === 'papper') {
@@ -117,7 +117,7 @@
             // scissor option condition
 
             if (PlayerMove === 'scissor') {
-                if (computerMove === 'Rock') {
+                if (computerMove === 'rock') {
                     result = 'you  loose'
                 }
                 else if (computerMove === 'papper') {
